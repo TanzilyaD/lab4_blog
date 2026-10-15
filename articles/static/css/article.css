@@ -1,0 +1,85 @@
+body {
+    background: #1abc9c;
+    font-family: Tahoma, Arial, sans-serif;
+    color: #ffffff;
+    margin: 0;
+    padding: 20px 0 40px;
+}
+
+/* ---------- общие стили ---------- */
+.header img {
+    display: block;
+    width: 318px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.post-title a {
+    color: #ffffff;
+}
+
+.article-info {
+    overflow: hidden;
+    margin-bottom: 12px;
+}
+
+.article-author {
+    width: 50%;
+    float: left;
+    font-weight: bold;
+}
+
+.article-created-date {
+    text-align: right;
+    font-style: italic;
+}
+
+.article-text {
+    line-height: 1.4;
+}
+
+/* ---------- страница со списком статей ---------- */
+.archive {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.archive .one-post {
+    margin-bottom: 36px;
+}
+
+.archive .post-title {
+    font-size: 30px;
+    margin: 30px 0 14px;
+}
+
+/* ---------- страница одной статьи ---------- */
+.article .content {
+    width: 960px;
+    margin-left: auto;
+    margin-right: auto;
+}
+
+.article .header {
+    overflow: hidden;
+    margin-bottom: 30px;
+}
+
+.article .header img {
+    margin-left: 0;
+    margin-right: 0;
+}
+
+.article .all-posts {
+    float: right;
+    margin-top: 12px;
+    font-size: 20px;
+    font-weight: bold;
+    color: #ffffff;
+}
+
+.article h1 {
+    font-size: 36px;
+    margin: 0 0 14px;
+}
